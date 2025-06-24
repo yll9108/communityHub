@@ -2,13 +2,15 @@ import React from "react";
 
 function Title() {
     return (
-        <div>
-            <p className="text-3xl">Your Local Taiwanese Community Hub</p>
-            <p>
+        <>
+            <h1 className="text-5xl font-bold">
+                Your Local Taiwanese Community Hub
+            </h1>
+            <p className="py-6">
                 Discover restaurants, find housing, explore job opportunities,
                 and stay connected with your community
             </p>
-        </div>
+        </>
     );
 }
 

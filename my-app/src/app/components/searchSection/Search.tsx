@@ -2,7 +2,7 @@ import React from "react";
 
 function Search() {
     return (
-        <div>
+        <>
             <label className="input rounded-4xl">
                 <svg
                     className="h-[1em] opacity-50"
@@ -22,10 +22,10 @@ function Search() {
                 </svg>
                 <input type="text" className="grow" placeholder="search" />
                 <button className="btn badge badge-neutral badge-m rounded-4xl">
-                    Optional
+                    Search
                 </button>
             </label>
-        </div>
+        </>
     );
 }
 
