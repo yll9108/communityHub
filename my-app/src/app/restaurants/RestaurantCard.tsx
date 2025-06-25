@@ -4,15 +4,16 @@ import { restaurantsItems } from "../components/shared/mockData";
 
 function RestaurantCard() {
     return (
-        <div className="flex">
-            {restaurantsItems.map((restaurant) => (
+        <div className="flex flex-wrap justify-center">
+            {restaurantsItems.map((restaurant, index) => (
                 <BaseCard
-                    key={restaurant.id}
-                    title={restaurant.title}
-                    cost={restaurant.cost}
-                    category={restaurant.category}
-                    rating={restaurant.rating}
-                    location={restaurant.location}
+                    key={index}
+                    // title={restaurant.title}
+                    // cost={restaurant.cost}
+                    // category={restaurant.category}
+                    // rating={restaurant.rating}
+                    // location={restaurant.location}
+                    {...restaurant}
                 />
             ))}
         </div>

@@ -6,7 +6,9 @@ function RestaurantPage() {
     return (
         <div>
             <Title type={TitleType.subTitle}>Popular Restaurants</Title>
-            <RestaurantCard />
+            <div>
+                <RestaurantCard />
+            </div>
         </div>
     );
 }

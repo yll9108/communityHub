@@ -8,7 +8,7 @@ import CategoryCard from "../shared/CategoryCard";
 function Hero() {
     return (
         <>
-            <div className="h-screen">
+            <div>
                 <section className="hero bg-gradient-to-br from-blue-50 to-indigo-100 h-96">
                     <div className="hero-content text-center">
                         <div className="max-w-3/4">

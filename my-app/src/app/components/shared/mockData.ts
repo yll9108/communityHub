@@ -11,7 +11,6 @@ export const categories = [
 
 export const restaurantsItems = [
     {
-        id: 1,
         cost: "$$",
         title: "Taiwanese Restaurant",
         category: "Taiwanese",
@@ -19,11 +18,29 @@ export const restaurantsItems = [
         location: "Downtown",
     },
     {
-        id: 2,
         cost: "$",
         title: "Indian Restaurant",
         category: "Indian",
         rating: 4.2,
         location: "Surrey",
+    },
+];
+
+export const housingItems = [
+    {
+        avalibility: "Now",
+        title: "Modern 2BR Apartment",
+        description: "some desciption",
+        pricing: "$1,800/month",
+        propertyType: "2 bed • 2 bath",
+        location: "Downtown District",
+    },
+    {
+        avalibility: "Now",
+        title: "Modern 2BR Apartment",
+        description: "some desciption",
+        pricing: "$1,800/month",
+        propertyType: "2 bed • 2 bath",
+        location: "Downtown District",
     },
 ];
