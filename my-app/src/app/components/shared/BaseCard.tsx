@@ -36,10 +36,11 @@ const BaseCard = (props: BaseCardType) => {
     return (
         <div className="card bg-base-100 w-96 shadow-sm relative mr-6">
             <figure>
-                <img
+                <img src={props.imageUrl} alt={props.title} />
+                {/* <img
                     src="https://techcrunch.com/wp-content/uploads/2015/08/shutterstock_237882754.jpg"
                     alt="Shoes"
-                />
+                /> */}
             </figure>
             {"cost" in props && (
                 <div className="badge badge-secondary absolute top-2 right-2">

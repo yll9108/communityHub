@@ -11,6 +11,8 @@ export const categories = [
 
 export const restaurantsItems = [
     {
+        imageUrl:
+            "https://techcrunch.com/wp-content/uploads/2015/08/shutterstock_237882754.jpg",
         cost: "$$",
         title: "Taiwanese Restaurant",
         category: "Taiwanese",
@@ -18,6 +20,8 @@ export const restaurantsItems = [
         location: "Downtown",
     },
     {
+        imageUrl:
+            "https://techcrunch.com/wp-content/uploads/2015/08/shutterstock_237882754.jpg",
         cost: "$",
         title: "Indian Restaurant",
         category: "Indian",
@@ -28,6 +32,8 @@ export const restaurantsItems = [
 
 export const housingItems = [
     {
+        imageUrl:
+            "https://ehq-production-canada.imgix.net/projects/images/660ca733e5dd1df2f6099bdd4cdd8bc6ec16b898/000/009/194/original/iStock-97403487.jpg?auto=compress%2Cformat&w=1080",
         avalibility: "Now",
         title: "Modern 2BR Apartment",
         description: "some desciption",
@@ -36,6 +42,8 @@ export const housingItems = [
         location: "Downtown District",
     },
     {
+        imageUrl:
+            "https://ehq-production-canada.imgix.net/projects/images/660ca733e5dd1df2f6099bdd4cdd8bc6ec16b898/000/009/194/original/iStock-97403487.jpg?auto=compress%2Cformat&w=1080",
         avalibility: "Now",
         title: "Modern 2BR Apartment",
         description: "some desciption",
