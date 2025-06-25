@@ -3,7 +3,7 @@ import React from "react";
 import Title, { TitleType } from "../shared/Title";
 // import Title from "../components/shared/Title";
 import Search from "./Search";
-import Card from "../shared/Card";
+import CategoryCard from "../shared/CategoryCard";
 
 function Hero() {
     return (
@@ -25,7 +25,7 @@ function Hero() {
                     </div>
                 </section>
                 <section className="flex flex-wrap justify-center">
-                    <Card />
+                    <CategoryCard />
                 </section>
             </div>
         </>

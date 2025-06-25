@@ -1,5 +1,5 @@
 import React from "react";
-import { menuItems } from "../shared/menuItems";
+import { menuItems } from "../shared/mockData";
 
 function Logo() {
     return (

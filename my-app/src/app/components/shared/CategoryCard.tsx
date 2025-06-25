@@ -1,7 +1,7 @@
 import React from "react";
-import { categories } from "./menuItems";
+import { categories } from "./mockData";
 
-function Card() {
+function CategoryCard() {
     return (
         <>
             {categories.map((category) => {
@@ -25,4 +25,4 @@ function Card() {
     );
 }
 
-export default Card;
+export default CategoryCard;

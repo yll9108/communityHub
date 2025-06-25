@@ -15,7 +15,7 @@ export type TitleProps = {
 const MAIN_TITLE_STYLE = "text-5xl bold-fold";
 const SUB_TITLE_STYLE = "text-3xl bold-fold";
 
-export const Title = (props: TitleProps) => {
+const Title = (props: TitleProps) => {
     let titleStyle = "";
     switch (props.type) {
         case TitleType.mainTitle:
