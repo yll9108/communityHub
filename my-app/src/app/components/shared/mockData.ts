@@ -11,6 +11,7 @@ export const categories = [
 
 export const restaurantsItems = [
     {
+        id: 1,
         cost: "$$",
         title: "Taiwanese Restaurant",
         category: "Taiwanese",
@@ -18,11 +19,11 @@ export const restaurantsItems = [
         location: "Downtown",
     },
     {
+        id: 2,
         cost: "$",
         title: "Indian Restaurant",
         category: "Indian",
         rating: 4.2,
         location: "Surrey",
     },
-    {},
 ];
