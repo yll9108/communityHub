@@ -15,7 +15,7 @@ function Hero() {
                         </div>
                     </div>
                 </section>
-                <section className="flex justify-center">
+                <section className="flex flex-wrap justify-center">
                     <Card />
                 </section>
             </div>
