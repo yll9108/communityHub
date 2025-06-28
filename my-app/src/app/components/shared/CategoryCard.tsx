@@ -2,8 +2,8 @@ import React, { ReactNode } from "react";
 
 export type CategoryType = {
     icon: ReactNode;
-    title: ReactNode;
-    content: ReactNode;
+    title: string;
+    content: string;
 };
 
 // export type CommunityType = {
