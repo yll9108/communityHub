@@ -1,9 +1,8 @@
 import React from "react";
-// import Title from "./Title";
 import Title, { TitleType } from "../shared/Title";
-// import Title from "../components/shared/Title";
 import Search from "./Search";
 import CategoryCard from "../shared/CategoryCard";
+import { categories } from "../shared/mockData";
 
 function Hero() {
     return (
@@ -24,9 +23,13 @@ function Hero() {
                         </div>
                     </div>
                 </section>
-                <section className="flex flex-wrap justify-center">
-                    <CategoryCard />
-                </section>
+                {/* <section> */}
+                <div className="flex flex-wrap justify-center">
+                    {categories.map((category, index) => (
+                        <CategoryCard key={index} {...category} />
+                    ))}
+                </div>
+                {/* </section> */}
             </div>
         </>
     );

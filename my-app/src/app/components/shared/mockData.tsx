@@ -3,10 +3,10 @@ import { Utensils, Home, Briefcase, Info } from "lucide-react";
 export const menuItems = ["Restaurant", "Housing", "Tips", "Communtiy"];
 
 export const categories = [
-    { icon: Utensils, title: "Restaurants", content: "testssss" },
-    { icon: Home, title: "Housing", content: "testssss" },
-    { icon: Briefcase, title: "Jobs", content: "testssss" },
-    { icon: Info, title: "Community", content: "testssss" },
+    { icon: <Utensils />, title: "Restaurants", content: "testssss" },
+    { icon: <Home />, title: "Housing", content: "testssss" },
+    { icon: <Briefcase />, title: "Jobs", content: "testssss" },
+    { icon: <Info />, title: "Community", content: "testssss" },
 ];
 
 export const restaurantsItems = [
@@ -50,5 +50,37 @@ export const housingItems = [
         pricing: "$1,800/month",
         propertyType: "2 bed • 2 bath",
         location: "Downtown District",
+    },
+];
+
+export const jobItems = [
+    {
+        position: "Developer",
+        jobType: "Full Time",
+        companyName: "Microsoft",
+        pay: "20/hr",
+        location: "Vancouver",
+        postedAt: "2 days ago",
+    },
+    {
+        position: "Developer",
+        jobType: "Full Time",
+        companyName: "Microsoft",
+        pay: "20/hr",
+        location: "Vancouver",
+        postedAt: "2 days ago",
+    },
+];
+
+export const CommunityCategory = [
+    {
+        icon: "🎉",
+        title: "Local Events",
+        content: "Upcoming community events and festivals",
+    },
+    {
+        icon: "🏛️",
+        title: "Public Services",
+        content: "Government offices, libraries, and utilities",
     },
 ];
